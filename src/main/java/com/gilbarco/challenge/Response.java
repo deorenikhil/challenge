@@ -4,23 +4,27 @@ public class Response {
 	
 	private String timestamp ;
 	private int calls;
-	
-	public void setTimestamp(String timestamp) {
-		this.timestamp = timestamp;
-	}
-	public void setCounter(int counter) {
-		this.calls = counter;
-	}
+
 	public String getTimestamp() {
 		return timestamp;
 	}
-	public int getCounter() {
+
+	public void setTimestamp(String timestamp) {
+		this.timestamp = timestamp;
+	}
+
+	public int getCalls() {
 		return calls;
 	}
-	public Response(String timestamp, int counter) {
+
+	public void setCalls(int calls) {
+		this.calls = calls;
+	}
+
+	public Response(String timestamp, int calls) {
 		super();
 		this.timestamp = timestamp;
-		this.calls = counter;
+		this.calls = calls;
 	}
 	
 
