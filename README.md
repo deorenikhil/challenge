@@ -1,0 +1,1 @@
+https://nik-cr7.herokuapp.com/webapi/time-service/time
